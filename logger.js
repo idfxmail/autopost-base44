@@ -1,0 +1,1 @@
+const fs=require('fs-extra');const path=require('path');async function writeLog(u,p='demo',c=''){const d=path.join('./logs',String(u));await fs.ensureDir(d);const f=path.join(d,`${p}.log`);await fs.appendFile(f,`[${new Date().toISOString()}] ${c}\n`);}module.exports={writeLog};

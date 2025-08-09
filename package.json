@@ -1,0 +1,23 @@
+{
+  "name": "autopost-base44",
+  "version": "1.1.0",
+  "description": "Auto-post Base44",
+  "main": "api.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node api.js",
+    "dev": "NODE_ENV=development node api.js",
+    "test-webhook": "node test_webhook.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^22.13.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

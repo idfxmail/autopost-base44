@@ -1,0 +1,24 @@
+{
+  "event": "publish_property",
+  "user_id": "demo_user_1",
+  "platform": "yad2-rent",
+  "property": {
+    "title": "דירת 3 חדרים מוארת",
+    "deal_type": "rent",
+    "address": "שינקין 25, תל אביב",
+    "city": "תל אביב-יפו",
+    "neighborhood": "לב העיר",
+    "rooms": 3,
+    "floor": 2,
+    "total_floors": 4,
+    "size": 78,
+    "price": 6900,
+    "description": "משופצת, מוארת, קרובה להכל.",
+    "images": [
+      "https://via.placeholder.com/800x600.png?text=Property+1",
+      "https://via.placeholder.com/800x600.png?text=Property+2"
+    ],
+    "contact_phone": "0508817812",
+    "url": "https://yourplatform.com/property/12345"
+  }
+}
