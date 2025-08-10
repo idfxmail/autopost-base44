@@ -1,1 +1,0 @@
-module.exports=async function({user_id,property}){const u=encodeURIComponent(property.url||'https://example.com');const q=encodeURIComponent((property.title||'')+' - '+(property.description||''));return {link:`https://www.facebook.com/sharer/sharer.php?u=${u}&quote=${q}`,meta:{platform:'facebook'}};}
